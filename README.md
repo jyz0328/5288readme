@@ -290,24 +290,22 @@ Here is an overview of the project structure:
 
 .app/
  └── src/
-     └── gitignore                   # Specifies files to be ignored by git  
+     └── .api/
+     └── .components/
+ └── gitignore                   # Specifies files to be ignored by git
+ └── Dockerfile                  # Docker configuration
+ └── eslint.config.js            # Linter configuration for the project
+ └── index.html                  # Main HTML entry point for the frontend
+ └── nginx.conf                  # Nginx server configuration
+ └── package-lock.json           # Package lock file 
+ └── package.json                # Project metadata and dependencies
+ └── vite.config.js              # Vite configuration for building the project
 
-
-Dockerfile                           # Docker configuration  
-
-eslint.config.js                     # Linter configuration for the project  
-
-index.html                           # Main HTML entry point for the frontend  
-
-nginx.conf                           # Nginx server configuration  
-
-package-lock.json                    # Package lock file  
-
-package.json                         # Project metadata and dependencies  
-
-vite.config.js                       # Vite configuration for building the project  
-
-images/
+.images/
  └── architecture.png                # Architecture diagram  
  └── login-page.png                  # Login page screenshot  
- └── monitor-page.png                # Monitoring page screenshot  
+ └── monitor-page.png                # Monitoring page screenshot
+ └── test-page.png                   # Testing page screenshot
+
+LICENSE
+README.md
