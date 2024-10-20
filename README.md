@@ -344,7 +344,7 @@ npm i
 npm run dev
 ```
 
-3. **Running the Application**:
+3. **Running the Application (User Interaction)**:
 Once the application is running, you should see the following output indicating that the server is ready:
 ```
 VITE v5.4.7  ready in 136 ms
@@ -358,36 +358,28 @@ VITE v5.4.7  ready in 136 ms
 Once the application is running locally, you can access various pages as follows:
 
 #### Login Page
-- Navigate to `/login`.
+- Click on **Login** to get access to login page.
 - Enter your username and password.
 - Click the **Login** button to authenticate.
 
-#### Monitor Cluster Page
-- Navigate to `/Monitor Cluster`.
-- Use filters to view specific system metrics.
-- Click on a node or system component to view more details.
+### Monitor Cluster Page
+
+- Click on **Monitor Cluster** to get access to monitor cluster page.
+- **Use Search Filters**: 
+   - At the top of the page, you will find a search input.
+   - Enter part or all of a node's name to filter the list of nodes and view only the relevant system metrics.
+- **View Node Details**:
+   - Click on any node in the collapsible table to expand it.
+   - This will reveal detailed information about the selected node, including live status updates and health checks.
 
 #### Testing Page
-- Navigate to `/testing`.
-- Select a test from the dropdown menu.
+- Click on **Run Tests** to get access to testing page.
+- Use the **Health Checks** menu  to select one or more tests and nodes.
+- Optionally, toggle the **Batches** switch to run tests in batches and enter the batch number.
+- For **Select Node Label**, enter a key-value pair (e.g., `testlabel=not2`) to specify the node to be tested.
 - Click the **Run Tests** button to start the test.
-- Test results will be displayed in the terminal output section.
+- Test results will be displayed in real-time in the terminal output section.
 
   
-UI Interactions
-Sidebar Navigation
-Use the sidebar on the left to navigate between different pages:
-Login: Authenticate users.
-Monitor: Display system metrics and monitoring details.
-Testing: Run tests on selected system components.
-Dropdown Menu on Testing Page
-Use the dropdown menu to select a test to run.
-Click the dropdown to view available options, then click the Run Tests button to start the test.
-Terminal Output
-The Terminal section on the Testing Page shows real-time logs and test results.
-You can scroll through the logs to view the status and results of the tests being executed.
-MultiSelect Component
-The MultiSelect input allows you to select multiple options from a list.
-This component is used in the monitoring page or when filtering data
 
 
