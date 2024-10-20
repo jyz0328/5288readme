@@ -362,7 +362,7 @@ Once the application is running locally, you can access various pages as follows
 - Enter your username and password.
 - Click the **Login** button to authenticate.
 
-### Monitor Cluster Page
+#### Monitor Cluster Page
 - Click on **Monitor Cluster** to get access to monitor cluster page.
 - **Use Search Filters**: 
    - At the top of the page, you will find a search input called Search Features.
