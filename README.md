@@ -286,26 +286,45 @@ Here is an overview of the project structure:
 ```plaintext
 .github/
  └── workflows/
-     └── set_done_date.yml           # GitHub Actions for CI/CD  
-
+     └── set_done_date.yml          # GitHub Actions for CI/CD
+  
 .app/
  └── src/
-     └── .api/
-     └── .components/
- └── gitignore                   # Specifies files to be ignored by git
- └── Dockerfile                  # Docker configuration
- └── eslint.config.js            # Linter configuration for the project
- └── index.html                  # Main HTML entry point for the frontend
- └── nginx.conf                  # Nginx server configuration
- └── package-lock.json           # Package lock file 
- └── package.json                # Project metadata and dependencies
- └── vite.config.js              # Vite configuration for building the project
+     └── api/
+         ├── getNodes.js                  # Fetches node data
+         ├── getNodesWithStatus.js        # Fetches node data with status
+         └── runTests.js                  # Runs tests on nodes
+     └── components/
+         ├── Button.jsx                   # Button component
+         ├── CollapsibleTable.jsx         # Collapsible table component
+         ├── ColumnFilter.jsx             # Column filter component for tables
+         ├── Dropdown.jsx                 # Dropdown menu component
+         ├── MultiSelect.jsx              # Multi-select input component
+         ├── NumberField.jsx              # Numeric input field component
+         ├── SearchInput.jsx              # Search input component
+         ├── Sidebar.jsx                  # Sidebar navigation component
+         ├── SidebarCarbon.jsx            # Sidebar with Carbon design
+         ├── Switch.jsx                   # Toggle switch component
+         └──  Terminal.jsx                # Terminal-like display component
+     ├── App.jsx                          # Main application component
+     ├── Login.jsx                        # Login page component
+     ├── Monitor.jsx                      # Monitoring page component
+     ├── Testing.jsx                      # Testing page component
+     └── Main.jsx                         # Main entry point for the ap
+ ├── gitignore                      # Specifies files to be ignored by git
+ ├── Dockerfile                     # Docker configuration
+ ├── eslint.config.js               # Linter configuration for the project
+ ├── index.html                     # Main HTML entry point for the frontend
+ ├── nginx.conf                     # Nginx server configuration
+ ├── package-lock.json              # Package lock file 
+ ├── package.json                   # Project metadata and dependencies
+ └── vite.config.js                 # Vite configuration for building the project
 
 .images/
- └── architecture.png                # Architecture diagram  
- └── login-page.png                  # Login page screenshot  
- └── monitor-page.png                # Monitoring page screenshot
- └── test-page.png                   # Testing page screenshot
+ └── architecture.png               # Architecture diagram  
+ ├── login-page.png                 # Login page screenshot  
+ ├── monitor-page.png               # Monitoring page screenshot
+ └── test-page.png                  # Testing page screenshot
 
-LICENSE
-README.md
+LICENSE                             # License information
+README.md                           # Project Documentation
