@@ -352,7 +352,7 @@ VITE v5.4.7  ready in 136 ms
   ➜  Local:   http://localhost:5173/
   ➜  Network: use --host to expose
   ➜  press h + enter to show help
-''' 
+```
 - Open your browser and go to [http://localhost:5173/](http://localhost:5173/) to access the application.
 
 Once the application is running locally, you can access various pages as follows:
@@ -372,6 +372,8 @@ Once the application is running locally, you can access various pages as follows
 - Select a test from the dropdown menu.
 - Click the **Run Tests** button to start the test.
 - Test results will be displayed in the terminal output section.
+
+  
 UI Interactions
 Sidebar Navigation
 Use the sidebar on the left to navigate between different pages:
