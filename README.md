@@ -281,7 +281,7 @@ npm i
 npm run dev
 ```
 
-## documentation
+## Structure:
 Here is an overview of the project structure:
 ```plaintext
 .github/
@@ -328,3 +328,61 @@ Here is an overview of the project structure:
 
 LICENSE                             # License information
 README.md                           # Project Documentation
+
+## Installation Steps
+
+1. **Clone the repository**:
+```
+   git clone [https://github.com/EC528-Fall-2024/autopilot-dashboard.git]
+   cd autopilot-dashboard
+```
+2. **Install Dependencies**:
+Ensure you have Node.js installed. Then follow these commands to install the necessary dependencies and start the front-end application:
+```
+cd app
+npm i
+npm run dev
+```
+
+3. **Running the Application**:n
+Once the application is running, you should see the following output indicating that the server is ready:
+```
+VITE v5.4.7  ready in 136 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
+''' 
+
+#### Login Page
+- Navigate to `/login`.
+- Enter your username and password.
+- Click the **Login** button to authenticate.
+
+#### Monitor Cluster Page
+- Navigate to `/Monitor Cluster`.
+- Use filters to view specific system metrics.
+- Click on a node or system component to view more details.
+
+#### Testing Page
+- Navigate to `/testing`.
+- Select a test from the dropdown menu.
+- Click the **Run Tests** button to start the test.
+- Test results will be displayed in the terminal output section.
+UI Interactions
+Sidebar Navigation
+Use the sidebar on the left to navigate between different pages:
+Login: Authenticate users.
+Monitor: Display system metrics and monitoring details.
+Testing: Run tests on selected system components.
+Dropdown Menu on Testing Page
+Use the dropdown menu to select a test to run.
+Click the dropdown to view available options, then click the Run Tests button to start the test.
+Terminal Output
+The Terminal section on the Testing Page shows real-time logs and test results.
+You can scroll through the logs to view the status and results of the tests being executed.
+MultiSelect Component
+The MultiSelect input allows you to select multiple options from a list.
+This component is used in the monitoring page or when filtering data
+
+
