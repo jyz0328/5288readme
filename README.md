@@ -329,7 +329,7 @@ Here is an overview of the project structure:
 LICENSE                             # License information
 README.md                           # Project Documentation
 ```
-## Installation Steps
+## User Instructions and UI
 
 1. **Clone the repository**:
 ```
@@ -363,14 +363,14 @@ Once the application is running locally, you can access various pages as follows
 - Click the **Login** button to authenticate.
 
 ### Monitor Cluster Page
-
 - Click on **Monitor Cluster** to get access to monitor cluster page.
 - **Use Search Filters**: 
-   - At the top of the page, you will find a search input.
+   - At the top of the page, you will find a search input called Search Features.
    - Enter part or all of a node's name to filter the list of nodes and view only the relevant system metrics.
 - **View Node Details**:
    - Click on any node in the collapsible table to expand it.
-   - This will reveal detailed information about the selected node, including live status updates and health checks.
+   - This will reveal detailed information about the selected node, including live status updates and GPU health checks and any related details.
+   - Under the **GPU Health** section, we can click on the funnel icon to filter the nodes. You can choose to display nodes where GPU health is either "Pass" or "Not Pass".
 
 #### Testing Page
 - Click on **Run Tests** to get access to testing page.
