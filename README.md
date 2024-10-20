@@ -328,7 +328,7 @@ Here is an overview of the project structure:
 
 LICENSE                             # License information
 README.md                           # Project Documentation
-
+```
 ## Installation Steps
 
 1. **Clone the repository**:
@@ -344,7 +344,7 @@ npm i
 npm run dev
 ```
 
-3. **Running the Application**:n
+3. **Running the Application**:
 Once the application is running, you should see the following output indicating that the server is ready:
 ```
 VITE v5.4.7  ready in 136 ms
@@ -353,6 +353,9 @@ VITE v5.4.7  ready in 136 ms
   ➜  Network: use --host to expose
   ➜  press h + enter to show help
 ''' 
+- Open your browser and go to [http://localhost:5173/](http://localhost:5173/) to access the application.
+
+Once the application is running locally, you can access various pages as follows:
 
 #### Login Page
 - Navigate to `/login`.
